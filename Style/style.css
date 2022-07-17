@@ -1,0 +1,70 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+background-color: #f3f1ff;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    padding: 30px;
+    width: 870px;
+    background-color: #E5E5E5;
+}
+.top-title{
+    font-size: medium;
+    color: #562EFF;
+  margin-top: 3px;
+}
+
+.players{
+    grid-row-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+   
+  
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+hr{
+    border: 3px solid D1D1D1;
+}
+/* Top blog style */
+.blog .cover-photo img{
+    width: 117px;
+    height: 117px;
+}
+.blog{
+    display: flex;
+}
+.blog-title{
+    margin-left: 16px;
+}
+.blogs{
+    display: grid;
+    grid: row gap 20px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+/* latest course */
+
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
